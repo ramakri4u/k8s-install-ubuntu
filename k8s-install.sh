@@ -1,3 +1,6 @@
+#This installation is tested on ubuntu 18.04 machine.
+#To install kubernetes master 2 core cpu is mandatory.
+#For nodes 1 core cpu is enough.
 apt-get update && apt-get install -y \
   apt-transport-https ca-certificates curl software-properties-common gnupg2
 

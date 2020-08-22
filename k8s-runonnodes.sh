@@ -1,3 +1,4 @@
+
 #Before executing the below token command
 #you should execute the k8s-install.sh file on all nodes.
 #This is the sample token command to run on all nodes if you want
