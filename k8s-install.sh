@@ -2,6 +2,8 @@
 #This installation is tested on ubuntu 18.04 machine.
 #To install kubernetes master 2 core cpu is mandatory.
 #For nodes 1 core cpu is enough.
+
+# ===> Install Docker on all the master and worker nodes
 apt-get update && apt-get install -y \
   apt-transport-https ca-certificates curl software-properties-common gnupg2
 
@@ -35,6 +37,8 @@ systemctl daemon-reload
 systemctl restart docker
 
 sudo systemctl enable docker
+
+# ===> Install kubeadm packages on all master and worker nodes
 
 sudo apt-get update && sudo apt-get install -y apt-transport-https curl
 
