@@ -1,3 +1,4 @@
+#All the following commands should be run on all the master nodes and worker nodes
 #This installation is tested on ubuntu 18.04 machine.
 #To install kubernetes master 2 core cpu is mandatory.
 #For nodes 1 core cpu is enough.
